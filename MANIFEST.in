@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+include settings.ini
+recursive-include objdetect *.py
+recursive-include nbs *.ipynb
+prune .git
+prune nbs/.ipynb_checkpoints
